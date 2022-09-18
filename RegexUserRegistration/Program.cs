@@ -10,7 +10,7 @@ namespace RegexUserRegistration
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("choose option 1.firstname \t 2.lastname \t 3.email \t 4. mobile number \t 5.rule1 password \t 6. rule2 password \t 7.Rule 3 password \t8.rule4 password");
+            Console.WriteLine("choose option 1.firstname \t 2.lastname \t 3.email \t 4. mobile number \t 5.rule1 password \t 6. rule2 password \t 7.Rule 3 password \t8.rule4 password \t 9.Email sample");
 
             int option = Convert.ToInt32(Console.ReadLine());
             switch(option)
@@ -41,6 +41,9 @@ namespace RegexUserRegistration
                     Console.WriteLine("enter a password");
                     string input3 = Console.ReadLine();
                     UC8PasswordSpecialChar.ValidPassWord(input3);
+                    break;
+                case 9:
+                    UC9EmailSamples.ValidEmailAddress();
                     break;
                 default:
                     Console.WriteLine("enter wrong choice");

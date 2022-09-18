@@ -7,7 +7,8 @@ using System.Threading.Tasks;
 
 namespace RegexUserRegistration
 {
-    internal class UC8PassWordSpecialCharcter
+    internal class UC8PasswordSpecialChar
+
     {
         public static void ValidPassWord(string password)
         {

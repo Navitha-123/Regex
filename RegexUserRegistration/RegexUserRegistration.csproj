@@ -51,6 +51,8 @@
     <Compile Include="UC4MobileNumber.cs" />
     <Compile Include="UC6PassWordUpperCase.cs" />
     <Compile Include="UC7PasswordNumeric.cs" />
+    <Compile Include="UC8PasswordSpecialChar.cs" />
+    <Compile Include="UC9EmailSamples.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
