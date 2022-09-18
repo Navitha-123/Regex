@@ -48,6 +48,7 @@
     <Compile Include="UC1RegexFirstName.cs" />
     <Compile Include="UC2RegexLastName.cs" />
     <Compile Include="UC3Email.cs" />
+    <Compile Include="UC4MobileNumber.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
