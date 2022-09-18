@@ -7,14 +7,14 @@ using System.Threading.Tasks;
 
 namespace RegexUserRegistration
 {
-    internal class UC1RegexFirstName
+    internal class UC2RegexLastName
     {
-        public static void ValidFirstName()
+        public static void ValidLastName()
         {
             Console.WriteLine("Enter first name");
             string firstname = Console.ReadLine();
-            string pattern = "^[A-Z],{3}$";
-            if(Regex.IsMatch(firstname, pattern))
+            string pattern = "^[A-Z],[a-z],{3}$";
+            if (Regex.IsMatch(firstname, pattern))
             {
                 Console.WriteLine("valid first name");
 
